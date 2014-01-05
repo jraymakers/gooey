@@ -5,3 +5,40 @@
   top: 0;
   bottom: 0;
 }
+.gy-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.gy-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.gy-top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.gy-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.gy-border-left {
+  border-left: 1px solid #aaa;
+}
+.gy-border-right {
+  border-right: 1px solid #aaa;
+}
+.gy-border-top {
+  border-top: 1px solid #aaa;
+}
+.gy-border-bottom {
+  border-bottom: 1px solid #aaa;
+}

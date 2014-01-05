@@ -1,0 +1,8 @@
+<div class="gy-fill">
+  <div ng-class="mainPanelClass()" ng-style="mainPanelStyle()">
+    <div ng-repeat="row in panel.rows" style="padding:2px">{{row}}</div>
+  </div>
+  <div ng-if="panel.subpanel" ng-class="subpanelClass()" ng-style="subpanelStyle()">
+    <gy-panel panel="panel.subpanel.panel"></gy-panel>
+  </div>
+</div>
